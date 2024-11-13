@@ -23,8 +23,8 @@ This project uses **React** and **Vite**. Below is a brief explanation on how to
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/stekug/uPopcorn
-   cd uPopcorn
+   git clone https://github.com/stekug/traveltheworld
+   cd traveltheworld
    npm i
    npm run dev
    ```
