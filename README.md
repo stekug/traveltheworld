@@ -7,8 +7,6 @@ In this project, I aim to develop a Single Page Application (SPA) to explore new
 - **`CSS Modules`**
 - **`...`**
 
-It is a simple movie finder and a private movie reminder/watched film storage application.
-
 ## 🚀 Getting Started
 
 This project uses **React** and **Vite**. Below is a brief explanation on how to use the project.
