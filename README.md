@@ -1,8 +1,30 @@
-# React + Vite
+# 🎬 Travel the World
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this project, I aim to develop a Single Page Application (SPA) to explore new technologies and revisit concepts I'm already familiar with.
 
-Currently, two official plugins are available:
+- **`SPAs`**
+- **`React Router`**
+- **`CSS Modules`**
+- **`...`**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is a simple movie finder and a private movie reminder/watched film storage application.
+
+## 🚀 Getting Started
+
+This project uses **React** and **Vite**. Below is a brief explanation on how to use the project.
+
+### Prerequisites
+
+- **Node.js** installed on your machine
+- **npm** package manager
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/stekug/uPopcorn
+   cd uPopcorn
+   npm i
+   npm run dev
+   ```
