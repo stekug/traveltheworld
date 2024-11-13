@@ -1,4 +1,4 @@
-# 🎬 Travel the World
+# 🌍 Travel the World
 
 In this project, I aim to develop a Single Page Application (SPA) to explore new technologies and revisit concepts I'm already familiar with.
 
