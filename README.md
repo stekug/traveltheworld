@@ -4,7 +4,10 @@ In this project, I aim to develop a Single Page Application (SPA) to explore new
 
 - **`SPAs`**
 - **`React Router`**
+- **`Nested Routes`**
 - **`CSS Modules`**
+- **`.reduce method`**
+- **`json-server`**
 - **`...`**
 
 ## 🚀 Getting Started
