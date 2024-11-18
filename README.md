@@ -10,6 +10,8 @@ In this project, I aim to develop a Single Page Application (SPA) to explore new
 - **`json-server`**
 - **`useNavigate hook`**
 - **`Programmatic Navigation`**
+- **`Creating and Prociding Context`**
+- **`Consuming Context`**
 - **`...`**
 
 ## 🚀 Getting Started
@@ -30,4 +32,5 @@ This project uses **React** and **Vite**. Below is a brief explanation on how to
    cd traveltheworld
    npm i
    npm run dev
+   npm run server (To start the json-server)
    ```
