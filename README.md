@@ -8,6 +8,8 @@ In this project, I aim to develop a Single Page Application (SPA) to explore new
 - **`CSS Modules`**
 - **`.reduce method`**
 - **`json-server`**
+- **`useNavigate hook`**
+- **`Programmatic Navigation`**
 - **`...`**
 
 ## 🚀 Getting Started
