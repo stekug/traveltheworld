@@ -1,11 +1,17 @@
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import styles from './Map.module.css';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  useMap,
+  useMapEvents,
+} from 'react-leaflet';
 import { useEffect, useState } from 'react';
 import { useCities } from '../contexts/CitiesContexts';
 
 export default function Map() {
-  const navigate = useNavigate();
   const { cities } = useCities();
 
   const [mapPosition, setMapPosition] = useState([40, 0]);
@@ -45,6 +51,7 @@ export default function Map() {
           </Marker>
         ))}
         <ChangeCenter position={mapPosition} />
+        <DetecetClick />
       </MapContainer>
     </div>
   );
@@ -54,4 +61,15 @@ function ChangeCenter({ position }) {
   const map = useMap();
   map.setView(position);
   return null;
+}
+
+function DetecetClick() {
+  const navigate = useNavigate();
+
+  useMapEvents({
+    click: (event) => {
+      console.log(event);
+      navigate(`form?lat=${event.latlng.lat}&lng=${event.latlng.lng}`);
+    },
+  });
 }
