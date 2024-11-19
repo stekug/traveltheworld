@@ -9,11 +9,12 @@ import AppLayout from './pages/AppLayout';
 import Login from './pages/Login';
 import CityList from './components/CityList';
 import CountryList from './components/CountryList';
-polyfillCountryFlagEmojis();
 import City from './components/City';
 import Form from './components/Form';
 import { Navigate } from 'react-router-dom';
 import { CitiesProvider } from './contexts/CitiesContexts';
+
+polyfillCountryFlagEmojis();
 
 function App() {
   return (
