@@ -12,6 +12,8 @@ In this project, I aim to develop a Single Page Application (SPA) to explore new
 - **`Programmatic Navigation`**
 - **`Creating and Prociding Context`**
 - **`Consuming Context`**
+- **`React-Datepicker`**
+- **`Leaflet Map Library`**
 - **`...`**
 
 ## 🚀 Getting Started
